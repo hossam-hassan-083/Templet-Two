@@ -1,14 +1,84 @@
-index.html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <link rel="stylesheet" href="./cdn/all.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" />
     <title></title>
-</head>
-<body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    <div class="bg-red text-[35px]"></div>
-</body>
+  </head>
+  <body>
+    <section class="relative w-full min-h-screen">
+      <img src="./assets/landing.jpg" alt="" class="a-[10] absolute h-full inset-0 object-cover" />
+      <div class="overlay bg-black/20 h-full inset-0 absolute z-[11]"></div>
+
+      <nav class="max-sm:flex-col max-sm:h-fit max-sm:gap-5 container border-b border-b-gray-100 z-[12] mx-auto px-2 relative z-10 flex items-center justify-between h-[60px]">
+        <img class="max-sm:pt-[10px]" src="./assets/logo.png" alt="" />
+        <ul class="h-full flex items-center gap-5 text-white text-sm">
+          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Home</li>
+          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Services</li>
+          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Portfolio</li>
+          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">About</li>
+          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Pricing</li>
+          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Contact</li>
+
+          <div class="w-[50px] h-[30px] ml-[20px] flex items-center justify-center border-l border-l-white">
+            <i class="fa-solid fa-magnifying-glass text-[20px]"></i>
+          </div>
+        </ul>
+      </nav>
+
+      <div class="hero text-white z-[12] w-full absolute before:w-1/2 before:absolute before:bg-[#207a94]/70 before:backdrop-blur-[1px] before:h-full before:z-[-1] top-1/2 -translate-y-1/2">
+        <div class="container  mx-auto p-6">
+          <div class="w-1/2">
+            <h1 class="text-3xl font-[700]">
+              Hello World! <br />
+              We Are Kasper We Make Art.
+            </h1>
+            <p class="text-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white min-h-screen flex flex-col justify-center items-center  " >
+    
+        <h1 class="text-4xl font-[500] uppercase mb-12 relative pb-2 
+            after:absolute after:w-full after:h-[2px] after:bg-black after:-bottom-3 after:left-0
+            before:absolute before:w-[15px] before:h-[15px] before:left-1/2 before:-translate-x-1/2 before:-bottom-[18px] before:z-[10]  before:bg-white before:border before:border-black  before:rounded-full
+            " >Services</h1>
+        <p class="text-base mb-12 opacity-70 max-w-[400px] text-balance w-full text-center " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        <div class="boxes grid grid-cols-2 container mx-auto gap-8 ">
+                <div class="box flex items-start gap-4  ">
+                    <i class="fa-solid fa-house text-5xl  "></i>
+                    <div>
+                        <h3 class="text-xl font-[700] text-blue-600 mb-3 " >Vorem amet intuitive</h3>
+                        <p class="text-sm text-balance " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                    </div>
+                </div>
+                <div class="box flex items-start gap-4  ">
+                    <i class="fa-solid fa-house text-5xl  "></i>
+                    <div>
+                        <h3 class="text-xl font-[700] text-blue-600 mb-3 " >Vorem amet intuitive</h3>
+                        <p class="text-sm text-balance " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                    </div>
+                </div>
+                <div class="box flex items-start gap-4  ">
+                    <i class="fa-solid fa-house text-5xl  "></i>
+                    <div>
+                        <h3 class="text-xl font-[700] text-blue-600 mb-3 " >Vorem amet intuitive</h3>
+                        <p class="text-sm text-balance " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                    </div>
+                </div>
+                <div class="box flex items-start gap-4  ">
+                    <i class="fa-solid fa-house text-5xl  "></i>
+                    <div>
+                        <h3 class="text-xl font-[700] text-blue-600 mb-3 " >Vorem amet intuitive</h3>
+                        <p class="text-sm text-balance " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+  </body>
 </html>
