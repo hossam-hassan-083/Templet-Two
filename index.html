@@ -6,79 +6,256 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- <link rel="stylesheet" href="./cdn/all.min.css" /> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" />
-    <title></title>
+    <title>Kasper</title>
   </head>
-  <body>
-    <section class="relative w-full min-h-screen">
-      <img src="./assets/landing.jpg" alt="" class="a-[10] absolute h-full inset-0 object-cover" />
+  <body class="antialiased relative p-0 m-0 open font-sans">
+    <!-- <section class="relative w-full min-h-screen">
+      <img
+        src="./assets/landing.jpg"
+        alt=""
+        class="z-[10] absolute h-full inset-0 object-cover"
+      />
       <div class="overlay bg-black/20 h-full inset-0 absolute z-[11]"></div>
 
-      <nav class="max-sm:flex-col max-sm:h-fit max-sm:gap-5 container border-b border-b-gray-100 z-[12] mx-auto px-2 relative z-10 flex items-center justify-between h-[60px]">
-        <img class="max-sm:pt-[10px]" src="./assets/logo.png" alt="" />
-        <ul class="h-full flex items-center gap-5 text-white text-sm">
-          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Home</li>
-          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Services</li>
-          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Portfolio</li>
-          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">About</li>
-          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Pricing</li>
-          <li class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center">Contact</li>
+      <nav
+        class="max-sm:flex-col max-sm:h-fit max-sm:gap-5 container border-b border-b-gray-100 z-[12] mx-auto px-2 relative z-10 flex items-center justify-between h-[60px]">
 
-          <div class="w-[50px] h-[30px] ml-[20px] flex items-center justify-center border-l border-l-white">
+        <img class="max-sm:pt-[10px]" src="./assets/logo.png" alt="" />
+
+        <ul class="h-full flex items-center gap-5 text-white text-sm">
+
+          <li
+            class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center"
+          >
+            Home
+          </li>
+          <li
+            class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center"
+          >
+            Services
+          </li>
+          <li
+            class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center"
+          >
+            Portfolio
+          </li>
+          <li
+            class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center"
+          >
+            About
+          </li>
+          <li
+            class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center"
+          >
+            Pricing
+          </li>
+          <li
+            class="max-sm:py-[10px] hover:text-[#1dccfa] border-b-[3px] -mb-[2px] border-b-transparent hover:border-b-[#1dccfa] duration-300 cursor-pointer h-full flex items-center justify-center"
+          >
+            Contact
+          </li>
+
+          <div
+            class="w-[50px] h-[30px] ml-[20px] flex items-center justify-center border-l border-l-white"
+          >
             <i class="fa-solid fa-magnifying-glass text-[20px]"></i>
           </div>
         </ul>
       </nav>
 
-      <div class="hero text-white z-[12] w-full absolute before:w-1/2 before:absolute before:bg-[#207a94]/70 before:backdrop-blur-[1px] before:h-full before:z-[-1] top-1/2 -translate-y-1/2">
-        <div class="container  mx-auto p-6">
+      <div
+        class="hero text-white z-[12] w-full absolute before:w-1/2 before:absolute before:bg-[#207a94]/70 before:backdrop-blur-[1px] before:h-full before:z-[-1] top-1/2 -translate-y-1/2"
+      >
+        <div class="container mx-auto p-6">
           <div class="w-1/2">
             <h1 class="text-3xl font-[700]">
               Hello World! <br />
               We Are Kasper We Make Art.
             </h1>
-            <p class="text-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            <p class="text-lg">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
+              sem. Mauris blandit aliquet elit, eget tincidunt.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="bg-white min-h-screen flex flex-col justify-center items-center  " >
-    
-        <h1 class="text-4xl font-[500] uppercase mb-12 relative pb-2 
-            after:absolute after:w-full after:h-[2px] after:bg-black after:-bottom-3 after:left-0
-            before:absolute before:w-[15px] before:h-[15px] before:left-1/2 before:-translate-x-1/2 before:-bottom-[18px] before:z-[10]  before:bg-white before:border before:border-black  before:rounded-full
-            " >Services</h1>
-        <p class="text-base mb-12 opacity-70 max-w-[400px] text-balance w-full text-center " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
-        <div class="boxes grid grid-cols-2 container mx-auto gap-8 ">
-                <div class="box flex items-start gap-4  ">
-                    <i class="fa-solid fa-house text-5xl  "></i>
-                    <div>
-                        <h3 class="text-xl font-[700] text-blue-600 mb-3 " >Vorem amet intuitive</h3>
-                        <p class="text-sm text-balance " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
-                    </div>
-                </div>
-                <div class="box flex items-start gap-4  ">
-                    <i class="fa-solid fa-house text-5xl  "></i>
-                    <div>
-                        <h3 class="text-xl font-[700] text-blue-600 mb-3 " >Vorem amet intuitive</h3>
-                        <p class="text-sm text-balance " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
-                    </div>
-                </div>
-                <div class="box flex items-start gap-4  ">
-                    <i class="fa-solid fa-house text-5xl  "></i>
-                    <div>
-                        <h3 class="text-xl font-[700] text-blue-600 mb-3 " >Vorem amet intuitive</h3>
-                        <p class="text-sm text-balance " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
-                    </div>
-                </div>
-                <div class="box flex items-start gap-4  ">
-                    <i class="fa-solid fa-house text-5xl  "></i>
-                    <div>
-                        <h3 class="text-xl font-[700] text-blue-600 mb-3 " >Vorem amet intuitive</h3>
-                        <p class="text-sm text-balance " >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
-                    </div>
-                </div>
+    <section
+      class="bg-white min-h-screen flex flex-col justify-center items-center"
+    >
+      <h1
+        class="text-4xl font-[500] uppercase mb-12 relative pb-2 after:absolute after:w-full after:h-[2px] after:bg-black after:-bottom-3 after:left-0 before:absolute before:w-[15px] before:h-[15px] before:left-1/2 before:-translate-x-1/2 before:-bottom-[18px] before:z-[10] before:bg-white before:border before:border-black before:rounded-full"
+      >
+        Services
+      </h1>
+      <p
+        class="text-base mb-12 opacity-70 max-w-[400px] text-balance w-full text-center"
+      >
+        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+        blandit aliquet elit, eget tincidunt.
+      </p>
+      <div class="boxes grid grid-cols-2 container mx-auto gap-8">
+        <div class="box flex items-start gap-4">
+          <i class="fa-solid fa-house text-5xl"></i>
+          <div>
+            <h3 class="text-xl font-[700] text-blue-600 mb-3">
+              Vorem amet intuitive
+            </h3>
+            <p class="text-sm text-balance">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Curabitur aliquet quam.
+            </p>
+          </div>
         </div>
-    </section>
+        <div class="box flex items-start gap-4">
+          <i class="fa-solid fa-house text-5xl"></i>
+          <div>
+            <h3 class="text-xl font-[700] text-blue-600 mb-3">
+              Vorem amet intuitive
+            </h3>
+            <p class="text-sm text-balance">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Curabitur aliquet quam.
+            </p>
+          </div>
+        </div>
+        <div class="box flex items-start gap-4">
+          <i class="fa-solid fa-house text-5xl"></i>
+          <div>
+            <h3 class="text-xl font-[700] text-blue-600 mb-3">
+              Vorem amet intuitive
+            </h3>
+            <p class="text-sm text-balance">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Curabitur aliquet quam.
+            </p>
+          </div>
+        </div>
+        <div class="box flex items-start gap-4">
+          <i class="fa-solid fa-house text-5xl"></i>
+          <div>
+            <h3 class="text-xl font-[700] text-blue-600 mb-3">
+              Vorem amet intuitive
+            </h3>
+            <p class="text-sm text-balance">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Curabitur aliquet quam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+
+    <section class="relativ w-full min-h-screen">
+      <div class="overlay z-20 bg-black/40 inset-0 object-cover absolute"></div>
+      <img class="bg-cover w-full absolute h-full" src="./assets/landing.jpg" alt="" />
+
+      <nav class="w-full border-b-2 border-[white] z-13 p-2 container m-auto h-[80px] mt-2 flex justify-between items-center relative z-10">
+        <img class="z-8 w-fit h-[60px]" src="./assets/logo.png" alt="" />
+        <ul class="z-12 flex items-center gap-3">
+          <li class="text-white p-4 text-center hover:border-b-[#1dccfa] border-b-transparent hover:text-[#1dccfa] border-b-2 h-[81px]">Home</li>
+          <li class="text-white p-4 text-center hover:border-b-[#1dccfa] border-b-transparent hover:text-[#1dccfa] border-b-2 h-[81px]">Services</li>
+          <li class="text-white p-4 text-center hover:border-b-[#1dccfa] border-b-transparent hover:text-[#1dccfa] border-b-2 h-[81px]">Portfolio</li>
+          <li class="text-white p-4 text-center hover:border-b-[#1dccfa] border-b-transparent hover:text-[#1dccfa] border-b-2 h-[81px]">About</li>
+          <li class="text-white p-4 text-center hover:border-b-[#1dccfa] border-b-transparent hover:text-[#1dccfa] border-b-2 h-[81px]">Pricing</li>
+          <li class="text-white p-4 text-center hover:border-b-[#1dccfa] border-b-transparent hover:text-[#1dccfa] border-b-2 h-[81px]">Contact</li>
+          <div class="z-6 m-auto w-[80px] h-[50px] px-6 py-4 border-l-2 text-xl text-white ml-[20px] text-center flex justify-items-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </ul>
+      </nav>
+      <div class="hero text-white z-[18] w-full absolute before:w-1/2 before:absolute before:bg-[#207a94]/70 before:backdrop-blur-[5px] before:h-full before:z-[-1] top-1/2 -translate-y-1/2">
+        <div class="container mx-auto p-6">
+          <div class="w-1/2">
+            <h1 class="text-3xl font-[700]">
+              Hello World! <br />
+              We Are Kasper We Make Art.
+            </h1>
+            <p class="text-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <div class="  box-border font-sans   ">
+
+
+<section class="contanier relative pl-[15px] pr-[15px] mt-auto mr-auto  ">
+<nav class=" flex  justify-between justify-items-center relative   container my-auto mx-auto h-[80px]">
+  <a class=" " href="#"><img class="h-[40px]" src="./assets/logo.png" alt=""></a>
+  <ul class="flex flex-1 items-center justify-end ">
+    <li class="pt-[40px] pb-[20px] pr-[10px] pl-[10px] relative z-[6] text-[#1dccfa] text-sm transition duration-300 cursor-pointer border-b-[1px] border-b-white hover:text-[#1dccfa] hover:border-b-[#1dccfa] n-underline block "><a href="#">Home</a></li>
+    <li class="pt-[40px] pb-[20px] pr-[10px] pl-[10px] relative z-[5] text-white text-sm transition    duration-300 cursor-pointer border-b-[1px] border-b-white hover:text-[#1dccfa]  hover:border-b-[#1dccfa] no-underline block" ><a href="#">Services</a></li>
+    <li class="pt-[40px] pb-[20px] pr-[10px] pl-[10px] relative z-[5] text-white text-sm transition    duration-300 cursor-pointer border-b-[1px] border-b-white hover:text-[#1dccfa] hover:border-b-[#1dccfa] no-underline block" ><a href="#">Portfolio</a></li>
+    <li class="pt-[40px] pb-[20px] pr-[10px] pl-[10px] relative z-[5] text-white text-sm transition    duration-300 cursor-pointer border-b-[1px] border-b-white hover:text-[#1dccfa] hover:border-b-[#1dccfa] no-underline block" ><a href="#">About</a></li>
+    <li class="pt-[40px] pb-[20px] pr-[10px] pl-[10px] relative z-[5] text-white text-sm transition    duration-300 cursor-pointer border-b-[1px] border-b-white hover:text-[#1dccfa] hover:border-b-[#1dccfa] no-underline block" ><a href="#">Pricing</a></li>
+    <li class="pt-[40px] pb-[20px] pr-[10px] pl-[10px] relative z-[5] text-white text-sm transition    duration-300 cursor-pointer border-b-[1px] border-b-white hover:text-[#1dccfa] hover:border-b-[#1dccfa] no-underline block"><a href="#">Contact</a></li>
+      <div>
+    <i class="fa-solid fa-magnifying-glass text-[20px]"></i>
+  </div>
+  </ul>
+  <div class="absolute bottom-0 z-[5] h-[1px] bg-[#a2a2a2] l-[15px] w-[calc(100%-1px)] " ></div>
+
+</nav>
+</section> -->
+    <style></style>
+    <header class=" h-[80px] fixed top-0">
+      <div class="container pl-[15px] pr-[15px] min-h-[97px] my-auto mx-auto">
+        <nav class=" flex-1 flex justify-between items-center">
+          <a class="h-[40px]" href="#">
+            <img src="./assets/logo.png" alt="" />
+          </a>
+
+          <ul class="text-sm md:text-lg lg:text-xl flex justify-center items-center">
+            <li class="text-[#1dccfa] pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-b-[#1dccfa] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Home</a></li>
+            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Services</a></li>
+            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Portfolio</a></li>
+            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">About</a></li>
+            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Pricing</a></li>
+            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Contact</a></li>
+
+            <!-- ✅ الأيقونة مضافة كـ li داخل ul -->
+            <li class="relative ml-[30px] pl-[30px] border-l-[1px] border-l-[white] h-full flex items-center justify-center">
+              <i class="fas fa-search text-[22px] cursor-pointer text-[white] h-[40px] w-[30px]"></i>
+            </li>
+          </ul>
+        </nav>
+        <div class="landing min-h-screen relative bg-[#1f2021] bg-[url('../assets/landing.jpg')] bg-cover"></div>
+        <div class="w-full h-[1px] bg-[#a2a2a2]"></div>
+      </div>
+    </header>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>
+        Hello World!<br />
+        We Are Kasper We Make Art
+      </h2>
+      <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+    </div>
   </body>
 </html>
+<!-- <div
+        class="hero text-white z-[12] w-full absolute before:w-1/2 before:absolute before:bg-[#207a94]/70 before:backdrop-blur-[1px] before:h-full before:z-[-1] top-1/2 -translate-y-1/2"
+      >
+        <div class="container mx-auto p-6">
+          <div class="w-1/2">
+            <h1 class="text-3xl font-[700]">
+              Hello World! <br />
+              We Are Kasper We Make Art.
+            </h1>
+            <p class="text-lg">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
+              sem. Mauris blandit aliquet elit, eget tincidunt.
+            </p>
+          </div>
+        </div>
+      </div> -->
