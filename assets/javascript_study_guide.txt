@@ -1,0 +1,76 @@
+
+✅ الأساسيات Fundamentals
+
+1. الفرق بين var و let و const
+2. ما هو الـ Hoisting؟
+3. أنواع الـ Scope في JavaScript
+4. ما هو الـ Closure واستخداماته
+5. الفرق بين == و ===
+6. الفرق بين pass by value و pass by reference
+7. ما معنى Mutable و Immutable؟
+8. أنواع البيانات: Primitive vs Non-Primitive
+9. الفرق بين null و undefined
+10. التعامل مع NaN في JavaScript
+
+🔁 التنفيذ والتزامن Execution & Async
+
+11. ما هو الـ Event Loop؟
+12. الفرق بين synchronous و asynchronous
+13. كيف تعمل setTimeout و setInterval من الداخل؟
+14. الفرق بين Call Stack و Callback Queue و Microtask Queue
+15. الفرق بين Callback و Promise
+16. كيفية كتابة Promise من الصفر
+17. التعامل مع async/await
+18. إدارة الأخطاء في الكود غير المتزامن (async error handling)
+19. الفرق بين parallel و sequential execution
+
+🧠 الفنكشنز Functions
+
+20. ما هي Higher Order Functions؟
+21. الفرق بين Function Declaration و Function Expression
+22. ما هي Arrow Functions ومتى تستخدمها؟
+23. كيف يعمل this في سياقات مختلفة؟
+24. طرق التعامل مع مشكلة this (bind, call, apply)
+25. ما هو currying؟
+26. ما الفرق بين Debounce و Throttle؟
+
+🧱 البرمجة الكائنية و الوظيفية (OOP vs FP)
+
+27. ما هو Prototypal Inheritance؟
+28. ما هي الـ Prototype Chain؟
+29. الفرق بين class و constructor function
+30. كيف تنفذ Inheritance باستخدام classes
+31. كيفية كتابة كود functional أكثر
+32. الفرق بين map, filter, reduce
+33. ما معنى composition للفنكشنز؟
+
+🧪 المتقدم Advanced
+
+34. كيفية كتابة كود Modular باستخدام ES Modules
+35. كيف تعمل الـ Garbage Collection؟
+36. كيفية منع Memory Leaks
+37. ما الفرق بين WeakMap و WeakSet؟
+38. كيفية كتابة Custom Iterator
+39. ما هي Generator Functions؟
+40. ما هو Proxy و Reflect API؟
+41. ما معنى Event Delegation؟
+42. كيفية كتابة Observer Pattern
+43. الفرق بين Shallow Copy و Deep Copy
+
+⚠️ أخطاء وممارسات شائعة يجب تجنبها
+
+- استخدام var بدل let أو const
+- تعديل متغيرات معرفة بـ const
+- تجاهل إدارة الأخطاء في async code
+- الاعتماد الكامل على Callbacks بدون استخدام Promises أو async/await
+- تكرار الكود بدل كتابة reusable functions
+- نسيان return في arrow functions
+- استخدام == بدل ===
+- سوء استخدام this
+- تعديل الكائنات الأصلية بدون نسخ (مما يسبب side effects)
+- استخدام forEach بدل map أو for...of مع async logic
+- كتابة كود imperative بدل declarative
+- استخدام خاطئ أو غير فعّال لـ setTimeout
+- تجاهل استخدام أدوات linting مثل ESLint
+- استخدام متغيرات Global بشكل مفرط
+- نسيان استخدام break في switch

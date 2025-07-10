@@ -8,8 +8,60 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" />
     <title>Kasper</title>
   </head>
-  <body class="antialiased relative p-0 m-0 open font-sans">
-    <!-- <section class="relative w-full min-h-screen">
+  <body class=" h-[200vh]  p-0 m-0   font-sans">
+    <section class="relative w-screen h-screen" >
+      <div class=" h-full w-full z-[9] absolute inset-0 bg-[url('./assets/landing.jpg')] bg-center bg-cover"></div>
+      <div class="w-full h-full absolute inset-0 z-[10] bg-black/20 "></div>
+
+      <nav class=" border-b border-b-gray-300 container sticky top-0 z-[11] px-[15px] min-h-[80px] mx-auto flex-1 flex justify-between items-center">
+        <a class="h-[40px]" href="#">
+          <img src="./assets/logo.png" alt="" />
+        </a>
+
+        <ul class=" text-sm md:text-lg lg:text-xl flex justify-center items-center">
+          <li class="text-[#1dccfa] pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-b-[#1dccfa] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Home</a></li>
+          <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Services</a></li>
+          <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Portfolio</a></li>
+          <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">About</a></li>
+          <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Pricing</a></li>
+          <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Contact</a></li>
+
+          <!-- ✅ الأيقونة مضافة كـ li داخل ul -->
+          <li class="relative ml-[30px]   border-l-[1px] border-l-[white]  h-[30px] w-[60px] flex items-center justify-center ">
+            <i class="fas fa-search text-[22px] cursor-pointer text-white "> </i>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="absolute top-1/2 left-0 z-20  w-full h-fit 
+          before:absolute before:w-1/2 before:h-full before:bg-[#0f586e]  before:left-0  " >
+          <div class="container mx-auto relative z-[21] p-8 text-white  ">
+            <div class="w-1/2 h-full " >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit deserunt est repellendus cumque, provident voluptatem minus doloribus rerum qui nobis? Ad magni corporis eaque quia quisquam consequatur corrupti, rem mollitia.
+            </div>
+          </div>
+      </div>
+
+      <!-- 
+        max-sm:text-blue-500
+        sm:text-red-500
+        md:
+        lg:
+        xl:
+        2xl:
+      -->
+      <!-- <div class="text">
+        <h2>
+          Hello World!<br />
+          We Are Kasper We Make Art
+        </h2>
+        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+      </div> -->
+    </section>
+  </body>
+</html>
+
+<!-- <section class="relative w-full min-h-screen">
       <img
         src="./assets/landing.jpg"
         alt=""
@@ -152,7 +204,7 @@
         </div>
       </div>
     </section> -->
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
 
     <section class="relativ w-full min-h-screen">
       <div class="overlay z-20 bg-black/40 inset-0 object-cover absolute"></div>
@@ -184,7 +236,7 @@
         </div>
       </div>
     </section> -->
-    <!-- <div class="  box-border font-sans   ">
+<!-- <div class="  box-border font-sans   ">
 
 
 <section class="contanier relative pl-[15px] pr-[15px] mt-auto mr-auto  ">
@@ -205,57 +257,3 @@
 
 </nav>
 </section> -->
-    <style></style>
-    <header class=" h-[80px] fixed top-0">
-      <div class="container pl-[15px] pr-[15px] min-h-[97px] my-auto mx-auto">
-        <nav class=" flex-1 flex justify-between items-center">
-          <a class="h-[40px]" href="#">
-            <img src="./assets/logo.png" alt="" />
-          </a>
-
-          <ul class="text-sm md:text-lg lg:text-xl flex justify-center items-center">
-            <li class="text-[#1dccfa] pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-b-[#1dccfa] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Home</a></li>
-            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Services</a></li>
-            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Portfolio</a></li>
-            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">About</a></li>
-            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Pricing</a></li>
-            <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Contact</a></li>
-
-            <!-- ✅ الأيقونة مضافة كـ li داخل ul -->
-            <li class="relative ml-[30px] pl-[30px] border-l-[1px] border-l-[white] h-full flex items-center justify-center">
-              <i class="fas fa-search text-[22px] cursor-pointer text-[white] h-[40px] w-[30px]"></i>
-            </li>
-          </ul>
-        </nav>
-        <div class="landing min-h-screen relative bg-[#1f2021] bg-[url('../assets/landing.jpg')] bg-cover"></div>
-        <div class="w-full h-[1px] bg-[#a2a2a2]"></div>
-      </div>
-    </header>
-    <div class="overlay"></div>
-    <div class="text">
-      <h2>
-        Hello World!<br />
-        We Are Kasper We Make Art
-      </h2>
-      <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
-    </div>
-  </body>
-</html>
-<!-- <div
-        class="hero text-white z-[12] w-full absolute before:w-1/2 before:absolute before:bg-[#207a94]/70 before:backdrop-blur-[1px] before:h-full before:z-[-1] top-1/2 -translate-y-1/2"
-      >
-        <div class="container mx-auto p-6">
-          <div class="w-1/2">
-            <h1 class="text-3xl font-[700]">
-              Hello World! <br />
-              We Are Kasper We Make Art.
-            </h1>
-            <p class="text-lg">
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-              Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
-              sem. Mauris blandit aliquet elit, eget tincidunt.
-            </p>
-          </div>
-        </div>
-      </div> -->
