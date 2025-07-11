@@ -33,17 +33,17 @@
     }
   </style> -->
   </head>
-  <body class=" h-[200vh]  p-0 m-0   font-sans">
-    <section class="  relative w-screen h-screen" >
-      <div class=" h-full w-full z-[9] absolute inset-0 bg-[url('./assets/landing.jpg')] bg-center bg-cover"></div>
-      <div class="w-full h-full absolute inset-0 z-[10] bg-black/20 "></div>
+  <body class="h-[200vh] p-0 m-0 font-sans">
+    <section class="relative w-screen h-screen">
+      <div class="h-full w-full z-[9] absolute inset-0 bg-[url('./assets/landing.jpg')] bg-center bg-cover"></div>
+      <div class="w-full h-full absolute inset-0 z-[10] bg-black/20"></div>
 
-      <nav class=" border-b border-b-gray-300 container sticky top-0 z-[11] px-[15px] min-h-[80px] mx-auto flex-1 flex justify-between items-center">
+      <nav class="border-b border-b-gray-300 container sticky top-0 z-[11] px-[15px] min-h-[80px] mx-auto flex-1 flex justify-between items-center">
         <a class="h-[40px]" href="#">
           <img src="./assets/logo.png" alt="" />
         </a>
 
-        <ul class=" text-sm md:text-lg lg:text-xl flex justify-center items-center">
+        <ul class="text-sm md:text-lg lg:text-xl flex justify-center items-center">
           <li class="text-[#1dccfa] pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-b-[#1dccfa] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Home</a></li>
           <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Services</a></li>
           <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Portfolio</a></li>
@@ -52,23 +52,20 @@
           <li class="text-white pl-[10px] pr-[10px] pt-[40px] pb-[40px] hover:text-[#1dccfa] border-b-[1px] border-transparent hover:border-b-[#1dccfa] transition duration-300 relative z-[2]"><a class="" href="#">Contact</a></li>
 
           <!-- ✅ الأيقونة مضافة كـ li داخل ul -->
-          <li class="relative ml-[30px]   border-l-[1px] border-l-[white]  h-[30px] w-[60px] flex items-center justify-center ">
-            <i class="fas fa-search text-[22px] cursor-pointer text-white "> </i>
+          <li class="relative ml-[30px] border-l-[1px] border-l-[white] h-[30px] w-[60px] flex items-center justify-center">
+            <i class="fas fa-search text-[22px] cursor-pointer text-white"> </i>
           </li>
         </ul>
       </nav>
 
-      <div class="absolute top-1/2 left-0 z-20  w-full h-fit 
-          before:absolute before:w-1/2 before:h-full before:bg-[#0f586e]  before:left-0  " >
-          <div class="container mx-auto relative z-[21] p-8 text-white  ">
-            <div class="w-1/2 h-full " >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit deserunt est repellendus cumque, provident voluptatem minus doloribus rerum qui nobis? Ad magni corporis eaque quia quisquam consequatur corrupti, rem mollitia.
-            </div>
-          </div>
+      <div class="absolute top-1/2 left-0 z-20 w-full h-fit before:absolute before:w-1/2 before:h-full before:bg-[#0f586e] before:left-0">
+        <div class="container mx-auto relative z-[21] p-8 text-white">
+          <div class="w-1/2 h-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit deserunt est repellendus cumque, provident voluptatem minus doloribus rerum qui nobis? Ad magni corporis eaque quia quisquam consequatur corrupti, rem mollitia.</div>
+        </div>
       </div>
 
       <!-- 
-        max-sm:text-blue-500
+        max-sm:text-blue-500d
         sm:text-red-500
         md:
         lg:
@@ -83,12 +80,19 @@
         <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
       </div> -->
     </section>
-    <section class="serves  text-center py-[10px] ">
+
+    <section class="serves text-center py-[10px]">
       <div class="conteainer">
-            <h2 class="text-[40px] mb-[70px] uppercase relative   "> <span class="absolute left-[50%] bottom-[-40px] translate-x-[-50%] w-[120px] h-[3px] bg-black "></span>Services</h2>
-              <p class=" text-center ">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        <h2 class=" 
+          text-[40px] pb-[10px] max-md:text-[25px] mb-[70px] uppercase relative w-fit mx-auto
+          before:absolute before:bg-white before:z-[10] before:w-[14px] before:h-[14px] before:bg-white before:border-2 before:border-black before:rounded-full before:bottom-[-5px] before:left-[50%] before:-translate-x-1/2
+          after:absolute  after:w-full after:h-[3px] after:bg-black after:bottom-0 after:left-1/2 after:-translate-x-1/2
+          ">
+          Services
+        </h2>
+        <p class="text-center">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
       </div>
-</section>
+    </section>
   </body>
 </html>
 
