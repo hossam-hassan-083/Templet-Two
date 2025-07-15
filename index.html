@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" />
     <title>Kasper</title>
   </head>
-  <body class="h-[200vh] p-0 m-0 font-sans">
-    <section class="relative w-screen h-screen">
+  <body class="p-0 m-0 font-sans">
+    <section class="relative w-screen min-h-screen">
       <div class="h-full w-full z-[9] absolute inset-0 bg-[url('./assets/landing.jpg')] bg-center bg-cover"></div>
       <div class="w-full h-full absolute inset-0 z-[10] bg-black/20"></div>
 
@@ -77,7 +77,7 @@
       </div>
     </section>
 
-    <section class="Desing py-[100px] h-[600px] bg-[url('./assets/design-features.jpg')] bg-cover relative flex items-center overflow-hidden">
+    <section class="Desing py-[100px] min-h-[600px] bg-[url('./assets/design-features.jpg')] bg-cover relative flex items-center overflow-hidden">
       <div class="w-full h-full absolute inset-0 bg-black/50"></div>
 
       <div class="image pl-[300px]">
@@ -107,7 +107,7 @@
       </div>
     </section>
 
-    <section class="h-[100vh] p-0 mb-[100px]">
+    <section class="min-h-screen p-0 mb-[100px]">
       <div class="container mx-auto relative">
         <div class="text-center my-[100px]">
           <h1 class="text-[50px] uppercase mb-[80px] w-fit relative mx-auto before:absolute before:bg-black before:w-full before:h-[4px] before:bottom-[-30px] before:left-[50%] before:translate-x-[-50%] after:absolute after:w-[14px] after:h-[14px] after:border-3 after:bg-white z-[30] after:rounded-full after:translate-x-[-50%] after:left-[50%] after:bottom-[-34px]">Portfolio</h1>
@@ -181,13 +181,14 @@
       </div>
       <a href="#" class="flex items-center justify-center text-[40px] w-fit h-[50px] text-white bg-[#1dccfa] py-[15px] px-[20px] mx-auto mt-[30px] rounded-xl uppercase"> more</a>
     </section>
+
     <section class="h-[100vh] relative w-full bg-cover my-[100px] max:w-full">
       <div class="absolute w-full h-full top-0 left-0">
-        <video class="w-full h-screen object-cover" autoplay muted loop playsinline src="./assets/awesome-video (1).mp4"></video>
+        <video class="w-full h-screen object-cover relative" autoplay muted loop playsinline src="./assets/awesome-video (1).mp4"></video>
         <div class="absolute bg-black/60 w-full h-full top-0 left-0"></div>
       </div>
-      <div class="z-32 flex items-center pl-[50%] w-full h-[400px] relative bg-[#0c5873]/50 transalt-x-[-50%] top-[50%]">
-        <div class="z-[35] text block left-0 items-center bg-reed-700 text-center h-[200px] absolute w-full bg-blu;e-700">
+      <div class="z-32 flex items-center pl-[50%] w-full h-[400px] absolute bg-[#0c5873]/50 transalt-x-[-50%] top-1/2">
+        <div class="z-[35] text block left-0 items-center bg-reed-700 text-center h-[200px] absolute w-full">
           <h1 class="text-[50px] text-white uppercase mb-[20px] m-0 p-0">Super Awesome Video Here</h1>
           <p class="text-[30px] text-white mt-0">Its All You Need</p>
         </div>
@@ -246,56 +247,172 @@
       </div>
     </section>
 
-    <section class="w-full min-h-screen pt-[100px]">
-      <div class="container mx-auto grid grid-cols-2 gap-4">
+    <section class="w-full mb-[100px] pt-[100px]">
+      <div class="container mx-auto grid grid-cols-2 gap-12">
         <div class="testimoniails pl-[20px]">
           <h2 class="text-center uppercase text-[20px] pb-[30px]">Testimonials</h2>
           <p class="text-center text-[#777] text-[15px]">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
 
-          <div class="flex gap-4 items-center  mt-4 mb-8" >
+          <div class="flex gap-4 items-center mt-30 mb-8">
             <span class=""> <img class="w-[130px] rounded-full" src="./assets/skills-01.jpg" alt="" /></span>
-            <div class="w-full border-b border-b-gray-300 pb-4  " >
-              <p class=" text-sm mb-3  ">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
-              <span class="text-xs text-gray-700 mr-2 text-right block  " >John Doe, CEO</span>
+            <div class="w-full border-b border-b-gray-300 pb-4">
+              <p class="text-sm mb-3">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+              <span class="text-xs text-gray-700 mr-2 text-right block">John Doe, CEO</span>
             </div>
           </div>
-          <div class="flex gap-4 items-center  mt-4 mb-8" >
+          <div class="flex gap-4 items-center mt-4 mb-8">
             <span class=""> <img class="w-[130px] rounded-full" src="./assets/skills-02.jpg" alt="" /></span>
-            <div class="w-full border-b border-b-gray-300 pb-4  " >
-              <p class=" text-sm mb-3  ">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
-              <span class="text-xs text-gray-700 mr-2 text-right block  " >John Doe, CEO</span>
+            <div class="w-full border-b border-b-gray-300 pb-4">
+              <p class="text-sm mb-3">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+              <span class="text-xs text-gray-700 mr-2 text-right block">John Doe, CEO</span>
             </div>
           </div>
 
-          
-
-          <div class="flex gap-2 justify-center" >
-            <span class="w-4 h-4 border-gray-400 border-2 block rounded-full " ></span>
-            <span class="w-4 h-4 border-[#19c8fa] bg-[#19c8fa] border-2 block rounded-full " ></span>
-            <span class="w-4 h-4 border-gray-400 border-2 block rounded-full " ></span>
+          <div class="flex gap-2 justify-center">
+            <span class="w-4 h-4 border-gray-400 border-2 block rounded-full"></span>
+            <span class="w-4 h-4 border-[#19c8fa] bg-[#19c8fa] border-2 block rounded-full"></span>
+            <span class="w-4 h-4 border-gray-400 border-2 block rounded-full"></span>
           </div>
         </div>
-
 
         <div class="skills">
-          <h2 class=" text-center uppercase text-[20px] pb-[30px]">skills</h2>
-          <p class=" text-center text-[#777] text-[15px]">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
-          
-          
-          <div class="mt-6" >
-            <h4 class="mb-2 text-sm text-gray-500 uppercase " >Adobe</h4>
-            <div class="bg-[#dedadc] h-4 w-full  " >
-              <span class="block bg-[#19c8fa] h-full w-[90%] relative 
-                            after:absolute after:content-['90%'] after:bg-[#000000] after:text-white after:top-[-30px] after:right-0 after:text-xs after:p-1 after:rounded-sm after:translate-x-1/2
-                            before:absolute before:border-4 before:border-[black_transparent_transparent_transparent] before:right-0 before:top-[-6px] before:translate-x-1/2 
-                            " ></span>
+          <h2 class="text-center uppercase text-[20px] pb-[30px]">skills</h2>
+          <p class="text-center text-[#777] text-[15px]">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+
+          <div class="mt-33">
+            <h4 class="mb-2 text-sm text-gray-500 uppercase">Adobe</h4>
+            <div class="bg-[#dedadc] h-4 w-full">
+              <span class="block bg-[#19c8fa] h-full w-[90%] relative after:absolute after:content-['90%'] after:bg-[#000000] after:text-white after:top-[-30px] after:right-0 after:text-xs after:p-1 after:rounded-sm after:translate-x-1/2 before:absolute before:border-4 before:border-[black_transparent_transparent_transparent] before:right-0 before:top-[-6px] before:translate-x-1/2"></span>
+            </div>
+          </div>
+
+          <div class="mt-12">
+            <h4 class="text-gray-500 uppercase pb-1">Html & Css</h4>
+            <div class="w-full h-4 bg-[#dedadc]"><span class="block w-[85%] h-full bg-[#19c8fa] relative before:absolute before:content-['85%'] before:top-[-40px] before:right-[0px] before:bg-black before:text-white before:p-1 before:rounded-sm before:text-sm before:translate-x-[50%] after:absolute after:border-[10px] after:border-[black_transparent_transparent_transparent] after:h-[10px] after:right-0 after:top-[-15px] after:translate-x-[50%]"></span></div>
+          </div>
+
+          <div class="mt-12">
+            <h4 class="uppercase text-sm text-gray-500">JavaScript</h4>
+            <div class="w-full h-4 bg-[#dedadc]"><span class="block w-[80%] h-full bg-[#19c8fa] relative before:absolute before:content-['80%'] before:right-0 before:text-sm before:bg-black before:text-white before:p-1 before:rounded-sm before:translate-x-[50%] before:top-[-40px] after:absolute after:border-[10px] after:border-[black_transparent_transparent_transparent] after:top-[-15px] after:right-0 after:translate-x-[50%]"></span></div>
+          </div>
+
+          <div class="mt-12">
+            <h4 class="uppercase text-sm text-gray-500">Php</h4>
+            <div class="w-full h-4 bg-[#dedadc]"><span class="block w-[90%] h-full bg-[#19c8fa] relative before:absolute before:content-['90%'] before:right-0 before:text-sm before:bg-black before:text-white before:p-1 before:rounded-sm before:translate-x-[50%] before:top-[-40px] after:absolute after:border-[10px] after:border-[black_transparent_transparent_transparent] after:top-[-15px] after:right-0 after:translate-x-[50%]"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full relative flex flex-col overflow-hidden h-[300px]">
+      <img class="absolute w-full h-full" src="./assets/quote.jpg" alt="" />
+      <div class="w-full absolute inset-0 bg-black/50"></div>
+      <p class="absolute text-white font-bold text-[30px] text-center top-[50%] left-[50%] translate-x-[-50%] flex justify-center items-center justify-items-center z-[50]">"accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt."</p>
+      <span class="absolute text-center translate-x-[-50%] left-[50%] bottom-13 text-[20px] text-white">John Doe</span>
+    </section>
+    <!-- start Pricing -->
+    <section class="pt-[20px]">
+      <div class="container mx-auto">
+        <h2 class="text-center text-[30px] uppercase mb-[60px] w-fit mx-auto relative before:absolute before:w-full before:h-1 before:bottom-[-30px] before:left-0 before:bg-black 
+        after:absolute after:w-[14px] after:h-[14px] after:bg-white after:bottom-[-35px] after:rounded-full after:left-1/2 after:-translate-x-1/2 after:border-2">Pricing</h2>
+        <p class="text-center text-[#777] mb-[60px]">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        <div class="min-box flex justify-around w-auto ">
+
+
+          <div class="bg-[#fcfcfc] text-center leading-normal ">
+            <div class="p-[10px] relative before:absolute before:w-full before:h-[2px] before:bg-[#19c8fa] before:top-0 before:left-0 
+            after:absolute after:w-full after:h-[2px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">
+              <h4 class=" uppercase text-[20px] ">Platinum</h4>
+              <span class="font-bolde inline-blockblock text-[50px]">49</span><span class="font-bold">/Mo</span>
+            </div>
+
+            <div class="py-[10px] px-[30px] leading-relaxed relative  after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0">
+              <ul class="   w-fit  ">
+                <li class="text-[16px] pb-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Feature No 1</li>
+                <li class="text-[16px] pt-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Extra Feature</li>
+                <li class="text-[16px] pt-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Extra Feature No 2</li>
+                <li class="text-[16px] pt-[15px]  w-full   after: after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Feature</li>
+              </ul>
+            </div>
+
+            <div class="py-[20px] ">
+              <button class="border border-1 border-[#19c8fa]  px-5 py-3 font-sans text-[#551a8b]">Buy Now</button>
+            </div>
+          </div>
+          <div class="bg-[#fcfcfc] text-center leading-normal ">
+            <div class="p-[10px] relative before:absolute before:w-full before:h-[2px] before:bg-[#19c8fa] before:top-0 before:left-0 
+            after:absolute after:w-full after:h-[2px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">
+              <h4 class=" uppercase text-[20px] ">Pro</h4>
+              <span class="font-bolde inline-blockblock text-[50px]">39</span><span class="font-bold">/Mo</span>
+            </div>
+
+            <div class="py-[10px] px-[30px] leading-relaxed relative  after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0">
+              <ul class="   w-fit  ">
+                <li class="text-[16px] pb-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Feature No 1</li>
+                <li class="text-[16px] pt-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Extra Feature</li>
+                <li class="text-[16px] pt-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Extra Feature No 2</li>
+                <li class="text-[16px] pt-[15px]  w-full   after: after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Feature</li>
+              </ul>
+            </div>
+
+            <div class="py-[20px]  ">
+              <button class="border border-1 border-[#19c8fa]  px-5 py-3 font-sans text-[#551a8b]">Buy Now</button>
+            </div>
+          </div>
+          <div class="bg-[#fcfcfc] text-center leading-normal ">
+            <div class="p-[10px] relative before:absolute before:w-full before:h-[2px] before:bg-[#19c8fa] before:top-0 before:left-0 
+            after:absolute after:w-full after:h-[2px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">
+              <h4 class=" uppercase text-[20px] ">Premium</h4>
+              <span class="font-bolde inline-blockblock text-[50px]">29</span><span class="font-bold">/Mo</span>
+            </div>
+
+            <div class="py-[10px] px-[30px] leading-relaxed relative  after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0">
+              <ul class="   w-fit  ">
+                <li class="text-[16px] pb-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Feature No 1</li>
+                <li class="text-[16px] pt-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Extra Feature</li>
+                <li class="text-[16px] pt-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Extra Feature No 2</li>
+                <li class="text-[16px] pt-[15px]  w-full   after: after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Feature</li>
+              </ul>
+            </div>
+
+            <div class="py-[20px]  ">
+              <button class="border border-1 border-[#19c8fa]  px-5 py-3 font-sans text-[#551a8b]">Buy Now</button>
+            </div>
+          </div>
+          <div class="bg-[#fcfcfc] text-center leading-normal ">
+            <div class="p-[10px] relative before:absolute before:w-full before:h-[2px] before:bg-[#19c8fa] before:top-0 before:left-0 
+            after:absolute after:w-full after:h-[2px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">
+              <h4 class=" uppercase text-[20px] ">Basic</h4>
+              <span class="font-bolde inline-blockblock text-[50px]">19</span><span class="font-bold">/Mo</span>
+            </div>
+
+            <div class="py-[10px] px-[30px] leading-relaxed relative  after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0">
+              <ul class="   w-fit  ">
+                <li class="text-[16px] pb-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Feature No 1</li>
+                <li class="text-[16px] pt-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Extra Feature</li>
+                <li class="text-[16px] pt-[15px] w-fit mx-auto  relative after:absolute after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Extra Feature No 2</li>
+                <li class="text-[16px] pt-[15px]  w-full   after: after:w-full after:h-[1px] after:bg-[#19c8fa] after:bottom-0 after:left-0 ">Feature</li>
+              </ul>
+            </div>
+
+            <div class="py-[20px] ">
+              <button class="border border-1 border-[#19c8fa]  px-5 py-3 font-sans text-[#551a8b]">Buy Now</button>
             </div>
           </div>
           
+
         </div>
-
-
+        <div class="text-center mx-auto py-[50px]">
+          <p class="mb-6 text-2xl">Contact us if you have special request</p>
+        <button class="bg-[#19c8fa] text-white text-[20px] px-3 py-2 rounded-xl"> Contect Us</button>
+        </div>
       </div>
     </section>
+    <!-- end Pricing -->
+      <section class="bg-[url('./assets/subscribe.jpg')] bg-cover bg-c w-fll ">
+        <div>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum illo mollitia delectus, veniam provident nesciunt blanditiis illum eaque quo, totam alias! Ad eligendi nam blanditiis voluptatem veniam porro fuga!
+        </div>
+      </section>
   </body>
 </html>
